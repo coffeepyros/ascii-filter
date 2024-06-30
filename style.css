@@ -18,7 +18,20 @@ canvas {
     /* transform: scale(0.5); */
     /* background-color: red; */
 }
-nav {
+form {
     position: absolute;
     top: 0;
+    right: 1rem;
+    background-color: #ffffffcc;
+    border: 1px solid #cccccccc;
+    padding: 0.5rem 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+form * {
+    font-size: 0.9rem;
+}
+button {
+    padding: 0.33rem 1.67rem;
+    border-radius: 0.5rem;
 }
