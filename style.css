@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+canvas {
+    border: 1px solid #ccc;
+    /* width: 1080px;
+    height: 1080px; */
+    /* transform: scale(0.5); */
+    /* background-color: red; */
+}
+nav {
+    position: absolute;
+    top: 0;
+}
